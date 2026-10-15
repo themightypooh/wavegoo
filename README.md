@@ -8,6 +8,8 @@ A custom desktop shell for **KDE Plasma (Wayland)**, built from scratch in [Quic
 
 - **The bar is a physics simulation.** It's a strip of square dots, each one a mass on a spring coupled to its neighbours like a membrane. Your cursor plows through them, pushes ripple outward and settle, and clicks send shockwaves. The sim runs on a coarse grid in JS, writes offsets into a tiny texture, and a fragment shader draws the dots on the GPU. It sleeps when idle, so a still bar costs nothing.
 - **Liquid gradient + "sand" grains** (magenta / cyan / yellow) that move with the bar's wave.
+![start menu](screenshots/launcher.png)
+
 - **Start menu as an arc fan** that unfolds out of the start orb: category carousels on three rings, search in the hub, and a power cluster (lock / sleep / log out / restart / shut down).
 - **Task list via a KWin bridge** (`windows.py`). KWin doesn't give Wayland clients a window list, so a small KWin script pushes it over D-Bus. Also handles Meta+1..9 and the bare Super key.
 - **Pinned-app drawer** that grows up out of the dots, with right-click pin/unpin saved to state.
