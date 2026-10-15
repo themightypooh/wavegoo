@@ -2,6 +2,8 @@
 
 A custom desktop shell for **KDE Plasma (Wayland)**, built from scratch in [Quickshell](https://quickshell.outfoxxed.me/) (QML + GLSL), plus **goonotes**, a sticky-notes app with a pixel-art file cabinet.
 
+![wavegoo in motion](screenshots/demo.gif)
+
 ![wavegoo desktop](screenshots/desktop.png)
 
 ## wavegoo: the bar
